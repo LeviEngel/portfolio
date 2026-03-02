@@ -1,0 +1,39 @@
+.navContainer {
+  position: fixed;
+  display: flex;
+  top: 1.5rem;
+  max-width: 100rem;
+  padding: .75rem 1rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  background-color: var(--color-primary);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  align-self: center;
+  pointer-events: auto;
+  box-shadow: inset 0 0 0 4px var(--color-primary);
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.navList a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.navList a:hover {
+  background: var(--color-primary);
+  transform: translateY(-2px);
+}
