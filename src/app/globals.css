@@ -1,6 +1,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --color-neutral: rgba(200, 200, 200, 0.8);
+  --color-primary:   rgba(255, 124, 36, 0.703);
+  --color-secondary: rgba(97, 186, 255, 0.833);
+
+  --color-bg:        #b5c6cb1d;
+  --color-text:      #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
